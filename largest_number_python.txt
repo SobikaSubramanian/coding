@@ -1,0 +1,17 @@
+li = [1, 4, 5, 2, 7]
+
+def largest_number(li):
+    for i in range(len(li) - 1):
+        if(li[i] < li[i+1]):
+            print(li[i+1])
+            i += 1
+        else:
+            print(li[i])
+        
+val = largest_number(li)
+print(val)
+
+# 4
+5
+5
+7

@@ -1,0 +1,7 @@
+string = "catinhatcathat"
+str1 = string.count("cat")
+str2 = string.count("hat")
+if(str1 == str2):
+    print("True")
+else:
+    print("False")
