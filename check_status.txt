@@ -1,0 +1,12 @@
+a, b, flag = 1, -1, False
+
+def checkStatus(a, b, flag):
+    if (a >= 0) != (b >= 0) and flag == False:
+        return True
+    elif a < 0 and b < 0 and flag == True:
+        return True
+    else:
+        return False
+        
+val = checkStatus(a, b, flag)
+print(val)
