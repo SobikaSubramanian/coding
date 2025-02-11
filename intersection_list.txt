@@ -1,0 +1,12 @@
+def intersection(arr1, arr2):
+        
+        set1 = set(arr1)
+        set2 = set(arr2)
+    
+        intersection_set = set1.intersection(set2)
+    
+        return sorted(list(intersection_set))
+
+a = [1, 2, 3, 4]
+b = [2, 4, 6, 7, 8]
+print(intersection(a, b))

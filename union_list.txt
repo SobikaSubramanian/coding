@@ -1,0 +1,11 @@
+def findUnion(a, b):
+        set_a = set(a)
+        set_b = set(b)
+        union_set = set_a.union(set_b)
+        
+        return len(union_set)
+
+
+a = [1, 2, 3, 4, 5]
+b = [1, 2, 3]
+print(findUnion(a, b))
