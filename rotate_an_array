@@ -1,0 +1,21 @@
+arr = [1, 2, 3, 4, 5]
+d = 4
+
+for i in range(d):
+    a = arr[0]
+    arr.append(a)
+    arr.remove(a)
+    
+print(arr)
+
+
+
+      (or)
+
+
+arr = [1, 2, 3, 4, 5]
+d = 4
+
+rotated_array = arr[d:] + arr[:d]
+
+print(rotated_array)
