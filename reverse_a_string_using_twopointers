@@ -1,0 +1,15 @@
+string = "sobika"
+string_list = list(string)
+
+l = 0
+r = len(string)-1
+
+while l < r:
+    temp = string_list[l] 
+    string_list[l] = string_list[r]
+    string_list[r] = temp
+    
+    l += 1
+    r -= 1
+    
+print(''.join(string_list))
